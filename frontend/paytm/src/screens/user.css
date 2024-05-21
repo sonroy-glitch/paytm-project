@@ -1,0 +1,79 @@
+.main1{
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    
+}
+.topbar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+    background-color: #8697C4;
+    height: 30px;
+}
+.header{
+    font-size: 15px;
+    color: #3D52A0;
+}
+.button3,.button4,.button5{
+    background-color: #3D52A0;
+    font-size: 10px;
+
+}
+.container{
+    display: flex;
+    position:absolute;
+    top:100px;
+    right:300px;
+    align-items: center;
+    justify-content: center;
+}
+.friends-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:700px;
+    height: 30px;
+    border-bottom: white solid 1px;
+    background-color: #8697C4;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 2px;
+    
+
+
+/* margin-bottom: 2px; */
+}
+.div{
+    /* margin-right: 300px; */
+    height: 100%;
+    
+    /* background-color:blue; */
+}
+.friends-header{
+    display: flex;
+    position: fixed;
+    top: 90px;
+    left:35px;
+    text-decoration: underline;
+}
+.data{
+    margin: 0%;
+    color: #3D52A0;
+
+}
+.button6{
+    font-size: 13px;
+    margin: 0%;
+    background-color: #3D52A0;
+    height: 22px;
+    padding: 0%;
+    padding: 2px;
+}

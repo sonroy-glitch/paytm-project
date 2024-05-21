@@ -1,0 +1,22 @@
+.holder-friend{
+    display: flex;
+    flex-direction: row;
+    background-color:#E98074;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: #124E66 solid 1px;
+    border-radius: 4px;
+}
+.username-holder{
+    margin-right: 40px;
+}
+.buttton-div{
+    display: flex;
+    font-size: 13px;
+}
+.button7{
+    font-size: 13px;
+}
